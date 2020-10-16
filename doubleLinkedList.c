@@ -1,5 +1,5 @@
 #include<stdio.h> //invoking standard input output.
-#include<stdlib.h>
+#include<stdlib.h> //invoking standard library function.
 struct node{
 	int data;
 	struct node *next,*prev;
