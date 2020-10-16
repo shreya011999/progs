@@ -54,7 +54,7 @@ void del(int data){ //method for deleting a node.
 	}
 }
 
-void display(){
+void display(){ //method for displaying the output.
 	struct node * ptr=start;
 	if(start==NULL)
 		printf("UNDERFLOW\n");
