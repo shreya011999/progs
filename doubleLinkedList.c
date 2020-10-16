@@ -5,7 +5,7 @@ struct node{
 	struct node *next,*prev;
 }* start=NULL;
 
-struct node * create(int data){
+struct node * create(int data){ //using structure to create a node.
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
 	p->data=data;
@@ -14,7 +14,7 @@ struct node * create(int data){
 	return p;
 }
 
-void insert(struct node * n){
+void insert(struct node * n){ 
 	struct node *ptr=start;
 	if(start==NULL)
 		start=n;
