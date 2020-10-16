@@ -26,7 +26,7 @@ void insert(struct node * n){
 	}
 }
 
-void del(int data){
+void del(int data){ //method for deleting a node.
 	struct node * ptr=start,*tmp;
 	int f=0;
 	if(start==NULL)
