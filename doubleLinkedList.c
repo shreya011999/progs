@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> //invoking standard input output.
 #include<stdlib.h>
 struct node{
 	int data;
