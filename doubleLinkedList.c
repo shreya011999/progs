@@ -72,7 +72,7 @@ int main(void){ // Main method
 	do{
 		printf("Menu:\n1. Insert\n2. Display\n3. Delete\n4. Exit\nenter: ");
 			scanf("%d",&n);
-		switch(n){
+		switch(n){//switch case
 			case 1:
 				printf("enter the data: ");
 					scanf("%d",&data);
