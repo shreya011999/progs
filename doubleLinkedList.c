@@ -30,7 +30,7 @@ void del(int data){ //method for deleting a node.
 	struct node * ptr=start,*tmp;
 	int f=0;
 	if(start==NULL)
-		printf("UNDERFLOW\n");
+		printf("UNDERFLOW\n"); 
 	else{
 		while(ptr!=NULL){
 			if(start->data==data){
@@ -50,7 +50,7 @@ void del(int data){ //method for deleting a node.
 			ptr=ptr->next;
 		}
 		if(f==0)
-			printf("NOT FOUND\n");
+			printf("NOT FOUND\n"); //output statement
 	}
 }
 
