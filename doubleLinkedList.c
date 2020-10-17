@@ -89,7 +89,7 @@ int main(void){ // Main method
 			case 4:
 				printf("Thank You!!\n");
 			
-			default:
+			default: // default case.
 				printf("Wrong Choice!! Try again\n");
 		}
 	}while(n!=3);
