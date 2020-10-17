@@ -37,7 +37,7 @@ void del(int data){ //method for deleting a node.
 				start=NULL;
 				f=1;
 				printf("%d is deleted\n",data);
-				break;
+				break; //break statement
 			}
 			else if(ptr->data == data){
 				tmp=ptr->next;
