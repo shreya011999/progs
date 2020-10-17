@@ -11,7 +11,7 @@ struct node * create(int data){ //using structure to create a node.
 	p->data=data;
 	p->next=NULL;
 	p->prev=NULL;
-	return p;
+	return p; // return statement
 }
 
 void insert(struct node * n){ //using a insert method to insert a node in the linked list.
@@ -70,7 +70,7 @@ void display(){ //method for displaying the output.
 int main(void){ // Main method
 	int n,data;
 	do{
-		printf("Menu:\n1. Insert\n2. Display\n3. Delete\n4. Exit\nenter: ");
+		printf("Menu:\n1. Insert\n2. Display\n3. Delete\n4. Exit\nenter: "); //
 			scanf("%d",&n);
 		switch(n){//switch case
 			case 1:
