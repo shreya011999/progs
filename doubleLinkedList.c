@@ -67,7 +67,7 @@ void display(){ //method for displaying the output.
 	}
 }
 
-int main(void){
+int main(void){ // Main method
 	int n,data;
 	do{
 		printf("Menu:\n1. Insert\n2. Display\n3. Delete\n4. Exit\nenter: ");
