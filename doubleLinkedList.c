@@ -49,7 +49,7 @@ void del(int data){ //method for deleting a node.
 			}
 			ptr=ptr->next;
 		}
-		if(f==0)
+		if(f==0) // if statement
 			printf("NOT FOUND\n"); //output statement
 	}
 }
