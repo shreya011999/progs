@@ -59,7 +59,7 @@ void display(){ //method for displaying the output.
 	if(start==NULL)
 		printf("UNDERFLOW\n");
 	else{
-		while(ptr!=NULL){
+		while(ptr!=NULL){//while loop
 			printf("%d ",ptr->data);
 			ptr=ptr->next;
 		}
