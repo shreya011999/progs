@@ -92,6 +92,6 @@ int main(void){ // Main method
 			default: // default case.
 				printf("Wrong Choice!! Try again\n");
 		}
-	}while(n!=3);
+	}while(n!=3);//while loop
 	return 1; //return statement
 } //end of progra.
