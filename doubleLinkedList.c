@@ -94,4 +94,4 @@ int main(void){ // Main method
 		}
 	}while(n!=3);//while loop
 	return 1; //return statement
-} //end of progra.
+} //end of program
