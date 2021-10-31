@@ -14,7 +14,7 @@ struct node * create(int data){ //using structure to create a node.
 	return p; // return statement
 }
 
-void insert(struct node * n){ //using a insert method to insert a node in the linked list.
+void insert(struct node * n){ //using a insert method to insert a node in the linked list
 	struct node *ptr=start;
 	if(start==NULL)
 		start=n;
