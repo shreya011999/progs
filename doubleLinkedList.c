@@ -26,7 +26,7 @@ void insert(struct node * n){ //using a insert method to insert a node in the li
 	}
 }
 
-void del(int data){ //method for deleting a node.
+void del(int data){ //method for deleting a node
 	struct node * ptr=start,*tmp;
 	int f=0;
 	if(start==NULL)
